@@ -3,20 +3,88 @@
     src: url(../assets/911porschav3.ttf);
 }
 
+@font-face {
+    font-family: "Porsche Main";
+    src: url(../assets/mainPorscheNext.otf);
+}
+
 body {
     margin: 0;
     padding: 0;
+    user-select: none;
+}
+
+.nav_first {
+    padding: 1% 10%;
 }
 
 .nav-main {
-    padding: 4% 8%;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
 }
 
+.nav-menu {
+    border-radius: 4px;
+    padding: 4px;
+    transition: 0.2s;
+}
+.nav-menu:hover {
+    cursor: pointer;
+    background-color:whitesmoke;
+}
+
+.btn {
+    border: 0;
+    background: none;
+    box-shadow: none;
+    border-radius: 0px;
+    font-size: 18px;
+}
+.btn:hover {
+    cursor: pointer;
+}
+
 .nav-logo {
-    font-family:'Porsche Regular';
+    font-family: 'Porsche Regular';
     font-weight: normal;
+}
+.nav-logo a {
+    color: inherit;
+    text-decoration: none;    
+}
+.nav-logo:hover {
+    cursor: pointer;
+}
+
+.nav-end {
+    border-radius: 4px;
+    padding: 4px;
+    transition: 0.2s;
+}
+.nav-end:hover {
+    background-color:whitesmoke;
+}
+
+.main-poster {
+    position: relative;
+}
+.main-poster img {
+    width: 100%;
+}
+
+.poster-bottom {
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.poster-text {
+    font-size: 58px;
+    font-family: 'Porsche Main';
+    color: azure;
+    padding-left: 12%;
 }
