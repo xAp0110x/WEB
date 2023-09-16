@@ -74,23 +74,25 @@ body {
 /* Poster style */
 .main-poster {
     position: relative;
+    height: auto;    
 }
 .main-poster img {
     width: 100%;
-}
+    display: block;
+} 
 /* creating gradiend */
 .poster-bottom {
     width: 100%;
-    background: linear-gradient(0deg,#000000b8 44.79%,#00000000 83.85%);
+    background: linear-gradient(0deg,#000000a0 44.79%,#00000000 83.85%);
     position: absolute;
     bottom: 0;
-    left: 0;
+    left: 0; 
 }
 
 .poster-text {
     font-size: 58px;;
     color: azure;
-    padding-left: 12%;
+    padding-left: 10%;
 }
 /* sticky navbar for future */
 .nav-second {
@@ -104,7 +106,11 @@ body {
 }
 
 .nav2-body {
-    padding: 0% 10%;
+    margin: 0% 12%;
+
+}
+.nav2-body ul {
+    padding: 0;
 }
 
 .navigation-elements {
