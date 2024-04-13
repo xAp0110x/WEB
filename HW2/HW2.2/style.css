@@ -1,0 +1,40 @@
+body {
+    margin: 3%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.end-symbol {
+    color:brown;
+    font-size:small;
+    padding: 2%;
+}
+.start-img {
+    padding: 0 2% 0 2%;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0%;
+    padding: 0%;
+}
+
+ul li {
+    padding: 1%;
+}
+li:nth-child(2){
+    background-color:gainsboro !important;
+}
+li:nth-child(5){
+    background-color:gainsboro !important;
+}
+li:nth-child(11){
+    background-color:gainsboro !important;
+}
+ul li:nth-child(odd){
+    background-color:lightblue;
+}
+
+ul li:nth-child(even){
+    background-color:powderblue;
+}
+

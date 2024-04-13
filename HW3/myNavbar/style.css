@@ -1,0 +1,130 @@
+/* Porsche font 1 */
+@font-face {
+    font-family: "Porsche Regular";
+    src: url(../assets/911porschav3.ttf);
+}
+
+/* Porsche font 2 */
+@font-face {
+    font-family: "Porsche Main";
+    src: url(../assets/mainPorscheNext.otf);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    user-select: none;
+    font-family: 'Porsche Main'
+}
+
+/* First navigation bar style */
+.nav_first {
+    padding: 1% 6%;
+}
+
+.nav1-body {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-menu {
+    border-radius: 4px;
+    padding: 4px;
+    transition: 0.2s;
+}
+.nav-menu:hover {
+    cursor: pointer;
+    background-color:rgb(240, 238, 238);
+}
+
+.btn {
+    border: 0;
+    background: none;
+    box-shadow: none;
+    border-radius: 0px;
+    font-size: 18px;
+}
+.btn:hover {
+    cursor: pointer;
+}
+
+.nav-logo {
+    font-family: 'Porsche Regular' !important;
+    font-weight: normal;
+}
+.nav-logo a {
+    color: inherit;
+    text-decoration: none;    
+}
+.nav-logo:hover {
+    cursor: pointer;
+}
+
+.nav-end {
+    border-radius: 4px;
+    padding: 4px;
+    transition: 0.2s;
+}
+.nav-end:hover {
+    background-color:rgb(240, 238, 238);
+}
+
+/* Poster style */
+.main-poster {
+    position: relative;
+}
+.main-poster img {
+    width: 100%;
+}
+/* creating gradiend */
+.poster-bottom {
+    width: 100%;
+    background: linear-gradient(0deg,#000000b8 44.79%,#00000000 83.85%);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.poster-text {
+    font-size: 58px;;
+    color: azure;
+    padding-left: 12%;
+}
+/* sticky navbar for future */
+.nav-second {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    padding: 1px;
+    border-bottom: 2px solid rgba(138, 128, 128, 0.229);
+    box-shadow: 0px 3px 6px rgba(113, 106, 106, 0.21);
+    background-color:white;   
+}
+
+.nav2-body {
+    padding: 0% 10%;
+}
+
+.navigation-elements {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+.navigation-elements button{
+    padding: 6px 5px;
+    border: 0;
+    background: none;
+    box-shadow: none;
+    border-radius: 4px;
+    transition: 0.3s;
+}
+.navigation-elements button:hover {
+    cursor: pointer;
+    background-color:rgb(240, 238, 238);
+}

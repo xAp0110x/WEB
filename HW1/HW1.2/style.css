@@ -1,0 +1,22 @@
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+ul li {
+    background-color:rgb(234, 234, 202);
+    font-size: 300%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: inline-block;
+    margin: 1%;
+    padding: 3%;
+}
+
+.red-card {
+    color:brown;
+}
+
+.black-card {
+    color: black;
+}
