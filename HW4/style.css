@@ -1,7 +1,12 @@
 body{
     margin: 0;
-    padding: 0;
+    padding: 54px 0 0 0;
     height: 1000px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+main{
+    background-color: #1bbc9b;
+    height: 50%;
 }
 
 img{
@@ -10,11 +15,12 @@ img{
 }
 
 .top-header{
-    padding: 0 25px;
+    padding: 0px 25px;
     height: 54px;
     width: 100vw;
     box-sizing: border-box;
     position: fixed;
+    top: 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -43,4 +49,63 @@ button a{
 }
 .buy-button:hover{
     cursor: pointer;
+}
+
+.settings{
+    display: flex;
+    align-items: start;
+    position: fixed;
+    top: 154px;
+    color: white;
+    transition: 0.5s;
+}
+
+.gear{
+    height: 29px;
+    width: 29px;
+    padding: 3.5px;
+    margin: 0;
+    border: 0;
+    background-color: #414146;
+}
+
+.template-styles{
+    background-color: #7e8082;
+}
+.template-styles p:first-child {
+    background-color: #414146;
+    padding-top: 5px;
+    padding-bottom: 6px;
+    margin: 0;
+    font-size: 15px;
+}
+.template-styles p{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.template-styles button{
+    display: inline-block;
+    float: left;
+    width: 14px;
+    height: 26px;
+    border: 1px solid #7e8082;
+    margin: 0px;
+    padding: 0px;
+}
+
+.colors{
+    padding-left: 15px;
+    padding-bottom: 35px;
+}
+.colors .yellow{
+    background-color: #ffea00;
+}
+.colors .blue{
+    background-color: #1bbc9b;
+}
+.colors .red{
+    background-color: #e74c3c;    ;
+}
+.colors .green{
+    background-color: #aadd00;
 }
