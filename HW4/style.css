@@ -1,20 +1,21 @@
-body{
+body {
     margin: 0;
     padding: 54px 0 0 0;
     height: 1000px;
     font-family: Arial, Helvetica, sans-serif;
 }
-main{
+
+main {
     background-color: #1bbc9b;
     height: 50%;
 }
 
-img{
+img {
     height: 100%;
     width: 100%;
 }
 
-.top-header{
+.top-header {
     padding: 0px 25px;
     height: 54px;
     width: 100vw;
@@ -28,12 +29,12 @@ img{
     z-index: 3;
 }
 
-.envato-logo{
+.envato-logo {
     height: 18px;
     width: 152px;
 }
 
-.buy-button{
+.buy-button {
     background-color: #82b440;
     box-shadow: 0 2px 0 #6f9a37;
     color: white;
@@ -45,14 +46,16 @@ img{
     height: 31px;
     width: 94px;
 }
-button a{
+
+button a {
     text-decoration: none;
 }
-.buy-button:hover{
+
+.buy-button:hover {
     cursor: pointer;
 }
 
-.settings{
+.settings {
     display: flex;
     align-items: start;
     position: fixed;
@@ -62,7 +65,7 @@ button a{
     z-index: 5;
 }
 
-.gear{
+.gear {
     height: 29px;
     width: 29px;
     padding: 3.5px;
@@ -70,13 +73,15 @@ button a{
     border: 0;
     background-color: #414146;
 }
-.gear:hover{
+
+.gear:hover {
     cursor: pointer;
 }
 
-.template-styles{
+.template-styles {
     background-color: #7e8082;
 }
+
 .template-styles p:first-child {
     background-color: #414146;
     padding-top: 5px;
@@ -84,11 +89,13 @@ button a{
     margin: 0;
     font-size: 15px;
 }
-.template-styles p{
+
+.template-styles p {
     padding-left: 15px;
     padding-right: 15px;
 }
-.template-styles button{
+
+.template-styles button {
     display: inline-block;
     float: left;
     width: 14px;
@@ -98,35 +105,68 @@ button a{
     padding: 0px;
 }
 
-.colors{
+.colors {
     padding-left: 15px;
     padding-bottom: 35px;
 }
-.colors .yellow{
+
+.colors .yellow {
     background-color: #ffea00;
 }
-.colors .blue{
+
+.colors .blue {
     background-color: #1bbc9b;
 }
-.colors .red{
+
+.colors .red {
     background-color: #e74c3c;
 }
-.colors .green{
+
+.colors .green {
     background-color: #aadd00;
 }
 
-.main-navbar{
-    background-color: #414146;
-    width: 340px;
-    height: 30px;
-}
-
-.navigation{
+.navigation {
     position: absolute;
-    top: 54px;
-    height: 105px;
-    display: flex;
-    align-items: end;
+    top: 94px;
     left: 50%;
     transform: translateX(-50%);
+}
+
+.main-navbar {
+    background-color: #414146;
+    width: 940px;
+    display: flex;
+    align-items: center;
+
+}
+
+.salona-logo{
+    height: 20px;
+    padding-left: 20px;
+    margin-right: 300px;
+}
+
+.nav-buttons {
+    display: flex;
+}
+
+.nav-buttons button{
+    padding: 30px 17px;
+    background-color: transparent;
+    border: none;
+    color: white;
+}
+
+.nav-buttons button:hover, .nav-buttons button:focus{
+    background-color: #ffea00;
+    color: #414146;
+    transition: 0.8s;
+    cursor: pointer;
+}
+
+.search{
+    width: 140px;
+    height: 75.8px;
+    background-color: #7e8082;
 }
