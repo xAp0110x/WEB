@@ -5,15 +5,13 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-main {
-    background-color: #1bbc9b;
-    height: 50%;
-}
-
 img {
     height: 100%;
     width: 100%;
 }
+
+
+/* header */
 
 .top-header {
     padding: 0px 25px;
@@ -131,6 +129,7 @@ button a {
     top: 94px;
     left: 50%;
     transform: translateX(-50%);
+    z-index: 2;
 }
 
 .main-navbar {
@@ -184,4 +183,47 @@ button a {
 .search-icon{
     width: 14px;
     height: 14px;
+}
+
+
+/* main */
+
+#slider {
+    position: relative;
+    overflow: hidden;
+}
+
+.slide {
+    display: none;
+}
+
+.slide img {
+    width: 100%;
+}
+
+#slider button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgb(0, 0, 0);
+    color: white;
+    border: none;
+    padding: 20px 30px;
+    cursor: pointer;
+    font-size: 25px;
+    z-index: 3;
+}
+
+.prev {
+    left: 10px;
+}
+
+.next {
+    right: 10px;
+}
+
+#slider button:hover{
+    background-color: yellow;
+    color: black;
+    transition: 0.5s;
 }

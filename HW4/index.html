@@ -59,7 +59,17 @@
         </div>
     </header>
     
-    <main></main>
+    <main>
+
+        <div id="slider" onmouseover="showButtons()" onmouseout="hideButtons()">
+            <div class="slide"><img src="http://abcgomel.ru/solana/images/sliders/slider-1/slider-bg-1.jpg" alt="Image 1"></div>
+            <div class="slide"><img src="http://abcgomel.ru/solana/images/sliders/slider-1/slider-bg-2.jpg" alt="Image 2"></div>
+            <div class="slide"><img src="http://abcgomel.ru/solana/images/sliders/slider-1/slider-bg-3.jpg" alt="Image 3"></div>
+            <button class="prev" onclick="prevSlide()">&#5176;</button>
+            <button class="next" onclick="nextSlide()">&#5171;</button>
+        </div>
+
+    </main>
 </body>
 
 </html>
