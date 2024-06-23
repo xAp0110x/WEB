@@ -41,3 +41,55 @@
 // }
 // console.log(areaCalculation(2, 3));
 // console.log(areaCalculation(2));
+
+
+// task5
+// function isPerfectNumber(number) {
+//     let sum = 0;
+//     for (let i = 1; i < number; i++) {
+//         if (number % i === 0) {
+//             sum += i;
+//         }
+//     }
+//     console.log(sum === number);
+// }
+
+
+//taks6
+// function perfectNumbersInRange(min, max) {
+//     for (let i = min; i <= max; i++) {
+//         if (isPerfectNumber(i)) {
+//             console.log(i);
+//         }
+//     }
+// }
+
+
+//taks7
+// function formatTime(hours, minutes = 0, seconds = 0) {
+//     console.log(`${hours.toString().padStart(2, '0')}:${minutes.toString().padStart(2, '0')}:${seconds.toString().padStart(2, '0')}`);
+// }
+
+
+//taks8
+// function timeToSeconds(hours, minutes, seconds) {
+//     console.log(hours * 3600 + minutes * 60 + seconds);
+// }
+
+
+//taks9
+// function secondsToTime(seconds) {
+//     const hours = Math.floor(seconds / 3600);
+//     const minutes = Math.floor((seconds % 3600) / 60);
+//     const remainingSeconds = seconds % 60;
+//     console.log(formatTime(hours, minutes, remainingSeconds) );
+// }
+
+
+//taks10
+// function differenceBetweenDates(hours1, minutes1, seconds1, hours2, minutes2, seconds2) {
+//     const seconds1Total = timeToSeconds(hours1, minutes1, seconds1);
+//     const seconds2Total = timeToSeconds(hours2, minutes2, seconds2);
+//     const difference = Math.abs(seconds1Total - seconds2Total);
+//     console.log(secondsToTime(difference));
+// }
