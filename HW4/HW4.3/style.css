@@ -1,0 +1,21 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.field {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: url('./assets/Field.jpeg') no-repeat center center;
+    background-size: cover;
+}
+.ball {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    transition: left 0.5s, top 0.5s;
+    border-radius: 50%;
+}
