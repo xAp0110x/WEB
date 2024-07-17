@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> OMDB </title>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+
+    <div class="search-block">
+        <p> <b>Search:</b> </p>
+
+        <div class="searching-details">
+
+            <div class="title-choise">
+                <label for="title-input"> <b>Title:</b> </label>
+                <input id="title-input" type="text">
+            </div>
+
+            <div class="type-choise">
+                <label for="type-input"> <b>Type:</b> </label>
+                <select name="type" id="type-input">
+                    <option value="movie">Movie</option>
+                    <option value="series">Series</option>
+                    <option value="episode">Episode</option>
+                </select>
+            </div>
+
+            <button class="search-button"> Search </button>
+        </div>
+    </div>
+
+</body>
+
+</html>
